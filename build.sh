@@ -3,3 +3,8 @@ pandoc --standalone 01.md >01.html
 pandoc --standalone 4.md  >4.html
 pandoc --standalone 240.md  >240.html
 pandoc --standalone 3.md  >3.html
+pandoc --standalone 130.md  >130.html
+pandoc --standalone 2031.md  >2031.html
+pandoc --standalone 5.md  >5.html
+pandoc --standalone schilder.md  >schilder.html
+pandoc --standalone staublappen.md  >staublappen.html

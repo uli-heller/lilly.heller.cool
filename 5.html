@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>3</title>
+  <title>5</title>
   <style>
     html {
       color: #1a1a1a;
@@ -166,16 +166,14 @@
 </head>
 <body>
 <p><img src="cat-top.png" width=70/></p>
-<h1 id="super---dritte-aufgabe-richtig-gelöst">Super - dritte Aufgabe
-richtig gelöst!</h1>
-<p>Zur Belohnung darfst Du auch die Euros behalten, das Couvert darfst
-Du mir zurückgeben! Ich kann es noch gebrauchen!</p>
-<p>Jetzt wird es schwierig: Du warst mit der Mama ja in Baden-Baden.
-Finde raus, wieviele Kilometer ihr da mit dem Auto gefahren seid und wie
-der Streckenverlauf ist für die Hin- und Rückfahrt!</p>
-<h1 id="vierte-aufgabe">Vierte Aufgabe</h1>
-<p>Welche Straßenart war der Großteil der Strecke? Welche
-Richtgeschwindigkeit gilt dort?</p>
+<h1 id="wieder-richtig">Wieder richtig!</h1>
+<p>Mal sehen, ob Du bei der Fahrschule was gelernt hast!</p>
+<h1 id="siebte-aufgabe---verkehrsschilder">Siebte Aufgabe -
+Verkehrsschilder</h1>
+<p>Wenn man Auto fahren möchte, dann muß man viele Verkehrsschilder
+kennen. Idealerweise sogar alle. Zähle alle Verkehrsschilder auf!</p>
+<p>Spaß gemacht!</p>
+<p>Wieviele Verkehrschilder gibt es?</p>
 <script type="text/javascript">
 function updateFooter(url) {
 
@@ -200,12 +198,22 @@ function weiter() {
   window.location.href = lnk;
 }
 
+function beinaheWeiter() {
+  var unsichtbarElement = document.getElementById('unsichtbar');
+  unsichtbarElement.style.display = "inline";
+}
+
 updateFooter(nextUrl);
 </script>
 <input id="footerUrl" type="text" style="display:none;"/>
 <div id="dynamic" data-display="block">
-Dritte Lösungszahl: <input type="text" id="digits" value=""/>
+Vierte Lösungszahl: <input type="text" id="digits" value=""/>
 </div>
-<p><input type="button" onclick="weiter()" value="Weiter" /></p>
+<p><input type="button" onclick="beinaheWeiter()" value="Weiter" /></p>
+<div id="unsichtbar" style="display:none">
+<p>Nochmal Späßle gmacht - ich kenne die Anzahl auch nicht!</p>
+<a href="schilder.html">Hier geht’s weiter!</a>
+<div>
+
 </body>
 </html>
