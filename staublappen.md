@@ -5,6 +5,6 @@
 Jetzt bist Du fast schon gut gerüstet für die letzte
 Suche! Die Suche ist im Erdgeschoss! Du mußt SEHR aufmerksam
 sein. Was gesucht wird, kann leicht übersehen werden.
-Der Staublappen kann hilfreich sein.
+Der Staublappen wird hilfreich sein.
 
 Los geht's!
