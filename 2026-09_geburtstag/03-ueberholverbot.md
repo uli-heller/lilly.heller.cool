@@ -1,6 +1,10 @@
 <img src="mini-torte.png" width=70/>
 
-# Leer!
+# Schilderwald OK
+
+Super, Du findest Dich im Schilderwald zurecht.
+Und Du weißt, daß man statt "Ü" manchmal auch "Ue"
+nutzt und 
 
 Passe diesen Text an!
 Passe auch unten den "count" an!
