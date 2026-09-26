@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>08-682</title>
+  <title>09-243</title>
   <style>
     html {
       color: #1a1a1a;
@@ -166,10 +166,10 @@
 </head>
 <body>
 <p><img src="mini-torte.png" width=70/></p>
-<h1 id="panzerknackerin">Panzerknackerin</h1>
-<p>Prima, Du könntest eine Lehre bei den Panzerknackern beginnen!</p>
-<p>Jetzt gibt es wieder eine Schatzsuche. Diesmal mußt Du bei der
-Terrasse suchen!</p>
+<h1 id="leer">Leer!</h1>
+<p>Passe diesen Text an! Passe auch unten den “count” und die
+“neunundneunzigste Antwort” an!</p>
+<p>Kennst Du die Frage?</p>
 <script type="text/javascript">
 function updateFooter(url) {
   var divElement = document.getElementById('dynamic');
@@ -187,7 +187,7 @@ function updateFooter(url) {
 function weiter() {
   var answerElement = document.getElementById('answer');
   var footerUrlElement = document.getElementById('footerUrl'); 
-  var count='10'
+  var count='99'
   var answer=answerElement.value;
   var url = footerUrl.value;
   var lnk=url+count+'-'+answer+'.html';
@@ -198,7 +198,7 @@ updateFooter(nextUrl);
 </script>
 <input id="footerUrl" type="text" style="display:none;"/>
 <div id="dynamic" data-display="block">
-Futoshiki-Ziffern: <input type="text" id="answer" value=""/>
+Neunundneunzigste Antwort: <input type="text" id="answer" value=""/>
 </div>
 <p><input type="button" onclick="weiter()" value="Weiter" /></p>
 </body>

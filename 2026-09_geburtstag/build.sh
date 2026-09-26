@@ -5,4 +5,5 @@ pandoc --standalone 03-ueberholverbot.md >03-ueberholverbot.html
 pandoc --standalone 04-ameisenbaer.md >04-ameisenbaer.html
 pandoc --standalone 07-156.md >07-156.html
 pandoc --standalone 08-682.md >08-682.html
+pandoc --standalone 09-243.md >09-243.html
 pandoc --standalone leer.md >leer.html
