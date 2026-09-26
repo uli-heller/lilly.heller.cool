@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>index</title>
+  <title>02-24</title>
   <style>
     html {
       color: #1a1a1a;
@@ -165,40 +165,46 @@
   </style>
 </head>
 <body>
-  <h1 id="geburtstag-der-lieblingstochter">Einleitung und Regeln</h1>
+<p><img src="mini-torte.png" width=70/></p>
+<h1 id="gut-gemacht">Gut gemacht!</h1>
+<p>Die Antwort ist richtig! Du hast die erste Quizfrage super
+beantwortet. Man kann schon beinahe stolz auf Dich sein!</p>
+<p>Hier gleich die nächste Frage: Wieviele Kerzen sind auf der
+Geburtstagstorte?</p>
+<figure>
+<img src="torte.png" alt="Torte" />
+<figcaption aria-hidden="true">Torte</figcaption>
+</figure>
+<script type="text/javascript">
+function updateFooter(url) {
+  var divElement = document.getElementById('dynamic');
+  var answerElement = document.getElementById('answer');
+  answerElement.value = '';
+  var footerUrlElement = document.getElementById('footerUrl');
+  footerUrlElement.value = url;
+  if (url.endsWith('-')) {
+    divElement.style.display = "block";
+  } else {
+    divElement.style.display = "none";  
+  }
+}
 
-  <p>
-    Liebe Tochter!
-  </p>
-  <p>
-    Heute hast Du Geburtstag und ich freue mich sehr für Dich!
-    Natürlich sollst Du dafür auch eine Belohnung erhalten.
-    Aber: Ohne Fleiß kein Preis! Deshalb führt der Weg zur Belohnung
-    über ein schwieriges Quiz. Mal sehen, ob Du es schaffst!
-  </p>
-  <p>
-    Hier noch einige "Regeln" (die mußt Du Dir alle merken):
-    <ul>
-      <li>Das Quiz besteht aus Frageseiten ähnlich dieser
-      <li>"Unten" kannst Du die Antwort eintippen
-      <li>Die Antwort besteht entweder aus einer Ziffernfolge oder aus einer Folge von Kleinbuchstaben oder aus einer Kombination von beidem
-      <li>Nicht enthalten sind Großbuchstaben - nimm stattdessen Kleinbuchstaben!
-      <li>Nicht enthalten sind auch Umlaute - nimm stattdessen die "Zweier-Umschreibung"
-      <li>Auch nicht enthalten sind Leer- und Satzzeichen - lass die einfach weg
-      <li>Wenn Du die richtige Antwort eintippst, dann "geht es weiter"
-      <li>Wenn Du die falsche Antwort eintippst, dann gibt es eine Art Fehlerseite
-      <li>Bei der Fehlerseite mußt Du zurück zur Frageseite und dort einen neuen Versuch unternehmen
-    </ul>
-  </p>
-  <p>
-    Hier nun eine erste Testfrage. Am besten beantwortest Du sie probehalber
-    mal falsch, damit Du die Art von Fehlerseite schonmal gesehen hast.
-  </p>
-  <p>
-    Dein wievielter Geburtstag ist heute?
-  </p>
-  
-<p><a href="2026-09_geburtstag/index.html?a=1"><img src="torte.png" width="200"></img></a></p>
-<p>Drücke auf die Torte!</p>
+function weiter() {
+  var answerElement = document.getElementById('answer');
+  var footerUrlElement = document.getElementById('footerUrl');
+  var count='02'  
+  var answer=answerElement.value;
+  var url = footerUrl.value;
+  var lnk=url+count+'-'+answer+'.html';
+  window.location.href = lnk;
+}
+
+updateFooter(nextUrl);
+</script>
+<input id="footerUrl" type="text" style="display:none;"/>
+<div id="dynamic" data-display="block">
+Erste Antwort: <input type="text" id="answer" value=""/>
+</div>
+<p><input type="button" onclick="weiter()" value="Weiter" /></p>
 </body>
 </html>
