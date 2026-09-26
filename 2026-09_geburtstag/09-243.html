@@ -166,10 +166,27 @@
 </head>
 <body>
 <p><img src="mini-torte.png" width=70/></p>
-<h1 id="leer">Leer!</h1>
-<p>Passe diesen Text an! Passe auch unten den “count” und die
-“neunundneunzigste Antwort” an!</p>
-<p>Kennst Du die Frage?</p>
+<h1 id="japan-kennerin">Japan-Kennerin</h1>
+<p>Du hast nun schon zwei Japan-Rätsel gelöst. Damit bist Du offiziell
+eine Japan-Kennerin.</p>
+<p>Jetzt wird’s ähnlich interessant:</p>
+<p>Du fährst bei Nebel auf der Autobahn und hast eine Sichtweite von
+weniger als 43.5 Metern. Wie schnell darfst Du höchstens fahren und
+darfst Du die Nebelschlussleuchte einschalten?</p>
+<ul>
+<li><ol type="A">
+<li>Ich darf höchstens 50 km/h fahren.</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Ich darf höchstens 80 km/h fahren.</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Ja, ich darf die Nebelschlussleuchte einschalten.</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Ja, ich muss die Nebelschlussleuchte einschalten.</li>
+</ol></li>
+</ul>
 <script type="text/javascript">
 function updateFooter(url) {
   var divElement = document.getElementById('dynamic');
@@ -187,7 +204,7 @@ function updateFooter(url) {
 function weiter() {
   var answerElement = document.getElementById('answer');
   var footerUrlElement = document.getElementById('footerUrl'); 
-  var count='99'
+  var count='10';
   var answer=answerElement.value;
   var url = footerUrl.value;
   var lnk=url+count+'-'+answer+'.html';
@@ -198,7 +215,7 @@ updateFooter(nextUrl);
 </script>
 <input id="footerUrl" type="text" style="display:none;"/>
 <div id="dynamic" data-display="block">
-Neunundneunzigste Antwort: <input type="text" id="answer" value=""/>
+Lösungsbuchstaben: <input type="text" id="answer" value=""/>
 </div>
 <p><input type="button" onclick="weiter()" value="Weiter" /></p>
 </body>
