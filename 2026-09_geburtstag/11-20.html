@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>10-ac</title>
+  <title>11-20</title>
   <style>
     html {
       color: #1a1a1a;
@@ -166,10 +166,10 @@
 </head>
 <body>
 <p><img src="mini-torte.png" width=70/></p>
-<h1 id="nebelkerze">Nebelkerze</h1>
-<p>Du hast den Titel “Nebelkerze” erlangt, was auch immer das bedeuten
-mag. Die nächste Schatzsuche ist im Hochbeet.</p>
-<p>Zähle die Anzahl der Worte der richtigen Antwort!</p>
+<h1 id="leer">Leer!</h1>
+<p>Passe diesen Text an! Passe auch unten den “count” und die
+“neunundneunzigste Antwort” an!</p>
+<p>Kennst Du die Frage?</p>
 <script type="text/javascript">
 function updateFooter(url) {
   var divElement = document.getElementById('dynamic');
@@ -184,14 +184,10 @@ function updateFooter(url) {
   }
 }
 
-function halbWeiter() {
-  document.getElementById("hidden").style.display = "block";
-}
-
 function weiter() {
   var answerElement = document.getElementById('answer');
   var footerUrlElement = document.getElementById('footerUrl'); 
-  var count='11';
+  var count='99';
   var answer=answerElement.value;
   var url = footerUrl.value;
   var lnk=url+count+'-'+answer+'.html';
@@ -202,22 +198,8 @@ updateFooter(nextUrl);
 </script>
 <input id="footerUrl" type="text" style="display:none;"/>
 <div id="dynamic" data-display="block">
-Anzahl: <input type="text" id="schrott" value=""/>
+Neunundneunzigste Antwort: <input type="text" id="answer" value=""/>
 </div>
-<p><input type="button" onclick="halbWeiter()" value="Weiter" /></p>
-<div id="hidden" style="display: none;">
-<p>
-Meiner Ansicht nach ist die Antwort von Google Gemini völlig falsch!
-Also kann man beim Ausdruck zählen, wie man will, es kommt nur Schrott
-heraus!
-</p>
-<p>
-Sinnvolle Frage: Wieviele Euros waren im Umschlag des Hochbeets?
-</p>
-<p>
-Antwort: <input type="text" id="answer" value=""/>
-<input type="button" onclick="weiter()" value="Weiter" />
-</p>
-</div>
+<p><input type="button" onclick="weiter()" value="Weiter" /></p>
 </body>
 </html>
