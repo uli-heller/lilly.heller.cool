@@ -3,7 +3,7 @@
 # Leer!
 
 Passe diesen Text an!
-Passe auch unten den "count" an!
+Passe auch unten den "count" und die "neunundneunzigste Antwort" an!
 
 Kennst Du die Frage?
 
@@ -35,4 +35,4 @@ updateFooter(nextUrl);
 </script>
 
 <input id="footerUrl" type="text" style="display:none;"/>
-<div id="dynamic" display="block">Erste Antwort:  <input type="text" id="answer" value=""/></div> <input type="button" onclick="weiter()" value="Weiter" />
+<div id="dynamic" display="block">NeunundneunzigsteErste Antwort:  <input type="text" id="answer" value=""/></div> <input type="button" onclick="weiter()" value="Weiter" />

@@ -4,12 +4,11 @@
 
 Super, Du findest Dich im Schilderwald zurecht.
 Und Du weißt, daß man statt "Ü" manchmal auch "Ue"
-nutzt und 
+nutzt und daß "Ue" als Kleinbuchstaben zu "ue" wird.
 
-Passe diesen Text an!
-Passe auch unten den "count" an!
-
-Kennst Du die Frage?
+Damit Du nicht einschläfst, ist jetzt ein wenig
+Bewegung angesagt. Finde den Schatz im Holzstadel
+und ermittle das Lösungswort! Trage es unten ein!
 
 <script type="text/javascript">
 function updateFooter(url) {
@@ -39,4 +38,4 @@ updateFooter(nextUrl);
 </script>
 
 <input id="footerUrl" type="text" style="display:none;"/>
-<div id="dynamic" display="block">Erste Antwort:  <input type="text" id="answer" value=""/></div> <input type="button" onclick="weiter()" value="Weiter" />
+<div id="dynamic" display="block">Lösungswort:  <input type="text" id="answer" value=""/></div> <input type="button" onclick="weiter()" value="Weiter" />
