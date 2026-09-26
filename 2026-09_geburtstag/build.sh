@@ -9,4 +9,5 @@ pandoc --standalone 08-682.md >08-682.html
 pandoc --standalone 09-243.md >09-243.html
 pandoc --standalone 10-ac.md >10-ac.html
 pandoc --standalone 11-20.md >11-20.html
+pandoc --standalone 12-200.md >12-200.html
 pandoc --standalone leer.md >leer.html
