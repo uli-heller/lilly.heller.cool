@@ -1,20 +1,11 @@
 <img src="mini-torte.png" width=70/>
 
-# Super gezählt!
+# Leer!
 
-Die Antwort ist richtig!
-Du kannst weiter zählen, als Deine Finger reichen!
-Gut zu wissen!
+Passe diesen Text an!
+Passe auch unten den "count" an!
 
-Es wird schwieriger werden!
-
-Du hast vor einiger Zeit ja begonnen mit der Vorbereitung
-zur theoretischen Fahrprüfung. Zur Prüfung Deines Könnens
-hier ein Wissenscheck!
-
-Wofür steht dieses Verkehrsschild?
-
-![ ](schild.webp)
+Kennst Du die Frage?
 
 <script type="text/javascript">
 function updateFooter(url) {
@@ -33,7 +24,7 @@ function updateFooter(url) {
 function weiter() {
   var answerElement = document.getElementById('answer');
   var footerUrlElement = document.getElementById('footerUrl'); 
-  var count='03'  
+  var count='99'  
   var answer=answerElement.value;
   var url = footerUrl.value;
   var lnk=url+count+'-'+answer+'.html';
